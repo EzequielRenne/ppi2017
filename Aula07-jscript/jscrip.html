@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="scripts.jss"></script>
+
+   
+
+</head>
+<body>
+	<div id="instrucao" onclick="alteraTexto();">
+		
+		Clique Aqui!
+	</div>
+
+	<div id="mudandoback">
+	
+
+	</div>
+
+</body>
+
+ <script>
+       
+         
+         var altercolor = document.querySelector("#mudandoback");
+
+         altercolor.onmouseenter = function(){
+         altercolor.style.background="#c94b4b";
+        
+
+       
+}
+altercolor.onmouseout = function(){
+         altercolor.style.background="green";
+
+     }
+    	
+
+    	var count=0;
+function alteraTexto(){
+
+	count++;
+  
+  var ins=document.querySelector("#instrucao");
+  ins.style.background="red";
+ ins.style.color="white";
+
+ins.textContent="Clique Aqui! ("+count+")";
+
+}
+ </script>
+</html>

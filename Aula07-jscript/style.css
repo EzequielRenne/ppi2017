@@ -1,0 +1,10 @@
+#mudandoback{
+
+background: green;
+min-height:  50px;
+max-height: 50px;
+max-width:  100px;
+min-width: 100px;
+ /*    display: block;  se n tiver nada ele mantem o tamanho>
+*/
+   }
